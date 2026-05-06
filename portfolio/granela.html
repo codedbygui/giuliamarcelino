@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto de direção de arte e design para Granela por Giulia Marcelino">
+  <title>Granela · Portfólio – Giulia Marcelino</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-page="portfolio">
+  <div class="lang-switcher">
+    <button type="button" class="lang-btn active" data-lang="pt" aria-label="Português">PT</button>
+    <span class="lang-divider">|</span>
+    <button type="button" class="lang-btn" data-lang="en" aria-label="English">EN</button>
+  </div>
+
+  <a href="../portfolio.html" class="project-back-btn" aria-label="Voltar ao portfólio">
+    ←
+  </a>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="profile-photo-wrap">
+          <img src="../images/profile.JPEG" alt="Giulia Marcelino" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="profile-photo-placeholder" style="display: none;">
+            <span class="placeholder-initials">GM</span>
+          </div>
+        </div>
+        <h1 class="sidebar-name">Giulia Marcelino</h1>
+        <p class="sidebar-headline" data-i18n="headline"></p>
+        <nav class="sidebar-nav" aria-label="Navegação principal">
+          <a href="../index.html" class="nav-link" data-i18n="menu_cv"></a>
+          <a href="../portfolio.html" class="nav-link nav-link-current" data-i18n="menu_portfolio"></a>
+        </nav>
+        <div class="sidebar-contact">
+          <a href="mailto:giulia.marcelino.m@gmail.com" class="contact-link">giulia.marcelino.m@gmail.com</a>
+          <span class="contact-location" data-i18n="location">São Paulo, SP</span>
+          <a href="https://www.behance.net/giuliamarcelino" target="_blank" rel="noopener" class="contact-link">behance.net/giuliamarcelino</a>
+        </div>
+        <div class="kpis">
+          <div class="kpi-card">
+            <span class="kpi-value" data-i18n="kpi1_value"></span>
+            <span class="kpi-label" data-i18n="kpi1_label"></span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-value" data-i18n="kpi2_value"></span>
+            <span class="kpi-label" data-i18n="kpi2_label"></span>
+          </div>
+        </div>
+        <div class="sidebar-actions"></div>
+        <div class="sidebar-signature">
+          <img src="../images/logo.png" alt="Assinatura Giulia Marcelino" class="signature-img" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </aside>
+
+    <main class="content content-project-full">
+      <section class="section" id="project-granela">
+        <div class="project-seq" aria-label="Galeria Granela">
+          <img src="granela/01.png" alt="Granela - 01" loading="lazy">
+          <img src="granela/02.png" alt="Granela - 02" loading="lazy">
+          <img src="granela/04.png" alt="Granela - 04" loading="lazy">
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../js/data.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
+
