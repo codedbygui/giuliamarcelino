@@ -1,0 +1,4 @@
+Imagens usadas no site da Giulia:
+
+- profile.JPEG  — foto de perfil na barra lateral (se não existir, aparecem as iniciais "GM")
+- logo.png      — assinatura/logo no fim da sidebar (opcional; se não existir, a área fica vazia)

@@ -1,0 +1,6 @@
+PDFs do currículo da Giulia (já configurados no site):
+
+- CV_GiuliaMarcelino_ptBR.pdf  (versão em português)
+- CV_GiuliaMarcelino_EN.pdf    (versão em inglês)
+
+O botão "Baixar CV (PDF)" na sidebar usa o arquivo conforme o idioma selecionado (PT ou EN).
